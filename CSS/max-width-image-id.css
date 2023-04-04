@@ -1,0 +1,7 @@
+img#needsfitwindow {
+    max-width: 100%;
+  }
+
+/* Mục đích là giúp cho ảnh sẽ tự động căn theo
+kích thước cửa sổ trình duyệt
+Style rule áp dụng với phần tử img có id là #needsfitwindow
