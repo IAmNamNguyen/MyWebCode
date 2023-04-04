@@ -1,0 +1,28 @@
+p {
+    direction: ltr;
+    line-height: 1.38;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: left;
+}
+/*
+ltr là viết tắt của left-to-right và là một giá trị cho thuộc tính direction trong CSS.
+Thuộc tính direction chỉ định hướng văn bản/hướng viết
+của nội dung bên trong một phần tử.
+Khi giá trị của thuộc tính direction được đặt thành ltr, văn bản bên trong
+phần tử sẽ được hiển thị từ trái sang phải. 
+Đây là hướng văn bản mặc định cho hầu hết các ngôn ngữ, trong đó có tiếng Anh và tiếng Việt.
+*/
+
+p span {
+    color: black;
+    font-family: Merriweather, serif;
+    font-size: 14pt;
+    white-space: pre-wrap;
+}
+/*
+p span là một bộ chọn CSS chọn tất cả các phần tử <span> là phần tử con của phần tử <p>. 
+Nói cách khác, nó chọn tất cả các phần tử <span> bên trong phần tử <p>. 
+Các kiểu được xác định cho bộ chọn này sẽ được áp dụng cho tất cả các 
+thành phần phù hợp trong đoạn HTML.
+*/
