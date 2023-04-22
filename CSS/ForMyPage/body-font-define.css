@@ -62,3 +62,10 @@ rule, we can use it in our CSS by specifying its name in the `font-family` prope
 Make sure that the file path specified in the `src` property is correct and that 
 the font file is accessible on your server.
 */
+
+p.pixels20 {
+    font-size: 20px;
+}
+p.pixels30 {
+    font-size: 30px;
+}
