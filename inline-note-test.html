@@ -1,8 +1,33 @@
 <!DOCTYPE html>
 <html>
+    <style>
+    .tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px dotted blue;
+    }
+    .tooltip .toolttext {
+    visibility: hidden;
+    width: 200px;
+    height:50px;
+    background-color:lightsalmon;
+    color: black;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px ;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    }
+    .tooltip:hover .toolttext {
+    visibility: visible;
+    }
+    </style>
     <head>
+        <link rel="stylesheet" href="/CSS/ForMyPage/body-font-define.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0;text/html; charset=UTF-8">
         <title>Thử nghiệm về inline note.</title>
-
     </head>
     <body>
         <h1>Inline note - Chú thích trên dòng</h1>
@@ -25,11 +50,8 @@
             <p id="52">Mặc dù chỉ làm việc với nhau vài năm ngắn ngủi, nhưng Reid nhớ rất rõ người đó.</p>
             <p id="53">Đó là cá nhân đã đồng hành cùng anh trong những năm tháng cuối cùng trên chiến trường, đã chăm chú lắng nghe, nói chuyện, và ghi chép lại những gì quan trọng nhất khi có cơ hội.</p>
 
-            <p id="54"><em>“―― Ngài còn nhớ ‘Tôi’ không, thưa ‘Bệ hạ<a id="anchor-note1" href="#note1" title="Your Excellency">[1]</a>’?” </em>
-                <span id="anchor-note1" class="note-icon none-print inline note-tooltip" data-tooltip-content="#note$1 .note-content" data-note-id="note$1"><i class="fas fa-sticky-note"></i></span><a id="anchor-note$1" class="inline-print none" href="#note$1">[note]</a>
+            <p id="54"><em>“―― Ngài còn nhớ ‘Tôi’ không, thưa ‘Bệ hạ’</em><span id="anchor-note1" class="tooltip"><span class="toolttext">Your Excellency</span><a href="#note1">[1]</a></span><em>?” </em></p>
 
-            </p>
-            
             <p id="55">Reid đáp lại bằng một nụ cười.</p>
             <p id="56">“Chỉ có duy nhất một người gọi tôi là ‘Bệ hạ' thay vì Đại tướng.”</p>
             <p id="57">Người đàn ông thuộc quân đội Altein, người đồng hành cùng Reid với tư cách là người cầm cờ của “Anh hùng”.</p>
@@ -38,12 +60,11 @@
         <div class="note-reg">
             <h2 align="center" style="margin-bottom: 40px;">Ghi chú</h2>
             <div style="margin-bottom: 20px;" id="note1">
-                <a href="#anchor-note1" style="margin-right: 10px">
-                <i class="fas fa-caret-up"></i>
-                </a><a href="#anchor-note1">[Lên trên] </a>
+                <a href="#anchor-note1" style="margin-right: 10px"></a>
+                <a href="#anchor-note1">[Lên trên] </a>
                 <span class="note-number">[1]</span>
                 <span class="note-content_real long-text">"Your Excellency"</span></div>
-        </div>
+            </div>
         </div>
     </body>
 </html>

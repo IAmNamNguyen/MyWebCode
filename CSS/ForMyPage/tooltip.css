@@ -1,4 +1,9 @@
-.tooltipleft .toolttextleft {
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px dotted blue;
+    }
+.tooltip .toolttext {
     visibility: hidden;
     width: 200px;
     height:50px;
@@ -10,9 +15,9 @@
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    right: 130%;
+    top: 100%;
     }
-    .tooltipleft:hover .toolttextleft {
+    .tooltip:hover .toolttext {
     visibility: visible;
     }
 
@@ -28,5 +33,7 @@
 .tippy-arrow{border-left-color:#333;border-width:8px 0 8px 8px;margin:3px 0;right:-7px;transform-origin:0 50%}
 .tippy-tooltip[data-placement^=right]>
 .tippy-arrow{border-right-color:#333;border-width:8px 8px 8px 0;left:-7px;margin:3px 0;transform-origin:7px 50%}
-.tippy-tooltip[data-interactive][data-state=visible]{pointer-events:auto}.tippy-tooltip[data-inertia][data-state=visible]{transition-timing-function:cubic-bezier(.54,1.5,.38,1.11)}
-.tippy-arrow{border-color:transparent;border-style:solid;position:absolute}.tippy-content{padding:5px 9px}
+.tippy-tooltip[data-interactive][data-state=visible]{pointer-events:auto}
+.tippy-tooltip[data-inertia][data-state=visible]{transition-timing-function:cubic-bezier(.54,1.5,.38,1.11)}
+.tippy-arrow{border-color:transparent;border-style:solid;position:absolute}
+.tippy-content{padding:5px 9px}
