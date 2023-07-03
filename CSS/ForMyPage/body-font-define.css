@@ -8,41 +8,41 @@ Here's an example of how to do this:
 @charset "UTF-8";
 @font-face {
     font-family: 'HostedMerriweather';
-    src: url('/Fonts/Merriweather/woffwoff2/merriweather-regular-webfont.woff2') format('woff2'),
-         url('/Fonts/Merriweather/woffwoff2/merriweather-regular-webfont.woff') format('woff'),
-         url('/Fonts/Merriweather/truetype/Merriweather-Regular.ttf') format('truetype');
+    src: url('../Fonts/Merriweather/woffwoff2/merriweather-regular-webfont.woff2') format('woff2'),
+         url('../Fonts/Merriweather/woffwoff2/merriweather-regular-webfont.woff') format('woff'),
+         url('../Fonts/Merriweather/truetype/Merriweather-Regular.ttf') format('truetype');
          font-weight: normal;
          font-style: normal;
 }
 @font-face {
     font-family: 'HostedMerriweather';
-    src: url('/Fonts/Merriweather/woffwoff2/merriweather-bold-webfont.woff2') format('woff2'),
-         url('/Fonts/Merriweather/woffwoff2/merriweather-bold-webfont.woff') format('woff'),
-         url('/Fonts/Merriweather/truetype/Merriweather-Regular.ttf') format('truetype');
+    src: url('../Fonts/Merriweather/woffwoff2/merriweather-bold-webfont.woff2') format('woff2'),
+         url('../Fonts/Merriweather/woffwoff2/merriweather-bold-webfont.woff') format('woff'),
+         url('../Fonts/Merriweather/truetype/Merriweather-Regular.ttf') format('truetype');
          font-weight: bold;
          font-style: normal;
 }
 @font-face {
     font-family: 'HostedMerriweather';
-    src: url('/Fonts/Merriweather/woffwoff2/merriweather-italic-webfont.woff2') format('woff2'),
-         url('/Fonts/Merriweather/woffwoff2/merriweather-italic-webfont.woff') format('woff'),
-         url('/Fonts/Merriweather/truetype/Merriweather-Regular.ttf') format('truetype');
+    src: url('../Fonts/Merriweather/woffwoff2/merriweather-italic-webfont.woff2') format('woff2'),
+         url('../Fonts/Merriweather/woffwoff2/merriweather-italic-webfont.woff') format('woff'),
+         url('../Fonts/Merriweather/truetype/Merriweather-Regular.ttf') format('truetype');
          font-weight: normal;
          font-style: italic;
 }
 @font-face {
     font-family: 'HostedMerriweather';
-    src: url('/Fonts/Merriweather/woffwoff2/merriweather-italic-webfont.woff2') format('woff2'),
-         url('/Fonts/Merriweather/woffwoff2/merriweather-italic-webfont.woff') format('woff'),
-         url('/Fonts/Merriweather/truetype/Merriweather-Regular.ttf') format('truetype');
+    src: url('../Fonts/Merriweather/woffwoff2/merriweather-italic-webfont.woff2') format('woff2'),
+         url('../Fonts/Merriweather/woffwoff2/merriweather-italic-webfont.woff') format('woff'),
+         url('../Fonts/Merriweather/truetype/Merriweather-Regular.ttf') format('truetype');
          font-weight: normal;
          font-style: italic;
 }
 @font-face {
     font-family: 'HostedMerriweather';
-    src: url('/Fonts/Merriweather/woffwoff2/merriweather-blackitalic-webfont.woff2') format('woff2'),
-         url('/Fonts/Merriweather/woffwoff2/merriweather-blackitalic-webfont.woff') format('woff'),
-         url('/Fonts/Merriweather/truetype/Merriweather-Regular.ttf') format('truetype');
+    src: url('../Fonts/Merriweather/woffwoff2/merriweather-blackitalic-webfont.woff2') format('woff2'),
+         url('../Fonts/Merriweather/woffwoff2/merriweather-blackitalic-webfont.woff') format('woff'),
+         url('../Fonts/Merriweather/truetype/Merriweather-Regular.ttf') format('truetype');
          font-weight: bold;
          font-style: italic;
 }
